@@ -1,0 +1,19 @@
+{
+  "name": "heat-sdk-example",
+  "version": "1.0.0",
+  "description": "Example heat-sdk usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.3",
+    "heat-sdk-v2": "heatcrypto/heat-sdk-v2#master"
+  }
+}
