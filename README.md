@@ -18,3 +18,27 @@ Install dependencies
 To run the tests do
 
 `npm run test`
+
+## Nodejs vs Browser
+
+The sdk can be used both in a nodejs environment as well as in the browser.
+
+For nodejs usage please use the following in package.json
+
+```json
+{
+  "dependencies": {
+    "heat-sdk-v2": "heatcrypto/heat-sdk-v2#master"
+  }
+}
+```
+
+For browser usage please use the following in package.json
+
+```json
+{
+  "dependencies": {
+    "heat-sdk": "heat-sdk"
+  }
+}
+```
